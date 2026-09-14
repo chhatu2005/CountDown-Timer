@@ -68,18 +68,22 @@ button {
     border: none;
     gap: 12px;
     font-size: 18px;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: #b44370;
+
 }
 
 .sbtn {
     background-color: #226398;
     font-size: 20px;
+    transition: 0.3s;
 }
 
 .rbtn {
     background-color: #c550bd;
     font-size: 20px;
+    transition: 0.3s;
 }
