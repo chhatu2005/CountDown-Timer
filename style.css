@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+    /* background-color:azure; */
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dfd5d5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px #5090c5;
+}
+
+h2 {
+    color: rgb(91, 21, 114);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+
+h1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+button {
+    background-color: #4A5568;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    gap: 12px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #b44370;
+}
+
+.sbtn {
+    background-color: #226398;
+    font-size: 20px;
+}
+
+.rbtn {
+    background-color: #c550bd;
+    font-size: 20px;
+}
